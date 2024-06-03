@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+     padding: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.206);
+    position: sticky;
+    z-index: 101;
+    top:0;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+}
+.nav-list li{
+    list-style: none;
+
+}
+.nav-list a{
+       text-decoration: none;
+       color: #fff;
+       font-size:1.2rem;
+}
+
+.main{
+    
+     display: flex;
+     justify-content: center;
+}
+.main-h{
+    width: 70%;
+    margin-top: 70px;
+}
+.main-p{
+   display: flex;
+   justify-content: center;
+   color: #fff;
+   text-align: center;
+}
+.main-p p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.main-p h3{
+    font-size: 2rem;
+}
+.btn{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+}
+.button{
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.218);
+    border: 1px solid white;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+.background{
+   
+    position: relative;
+    height: 100vh;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    
+}
+.third{
+    display: flex;
+}
+
+.third2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.third3{
+    display:flex;
+    
+}
+
+.hero img{
+   width: 31%;
+   height: 52vh;
+}
+.hero p{
+    
+}
+
+/*.main{
+    position: absolute;
+    background-image: url('travel.jpg'); /* Replace with your actual background image path 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    top: 0;
+}*/
+.back{
+     background-image: url('travel.jpg');  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+}
